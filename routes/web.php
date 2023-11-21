@@ -2,6 +2,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PlantsController;
 use App\Http\Controllers\AnimalsController;
+use App\Http\Controllers\FarmersController;
 
 // |--------------------------------------------------------------------------
 // | Web Routes
@@ -24,6 +25,10 @@ Route::get('/home', function () {
 
 Route:: get('/plant/all', [PlantsController::class, 'index1']);
 Route:: get('/animal/semua', [AnimalsController::class, 'index2']);
+Route:: get('/farmer/all', [FarmersController::class, 'index3']);
 
 Route::get('/nature/detail/{plant}',[PlantsController::class,'show']);
 Route::get('/nature/detailh/{animal}',[AnimalsController::class,'show']);
+Route::get('/farmer/detail/{farmer}',[FarmersController::class,'show']);
+
+

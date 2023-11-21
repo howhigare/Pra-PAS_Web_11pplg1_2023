@@ -12,6 +12,7 @@
           <a class="nav-link active" aria-current="page" href="/home">Home</a>
           <a class="nav-link" href="/plant/all">Plants</a>
           <a class="nav-link" href="/animal/semua">Animals</a>
+          <a class="nav-link" href="/farmer/all">Farmers</a>
         </div>
       </div>
     </div>
